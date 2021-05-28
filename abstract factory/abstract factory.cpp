@@ -103,7 +103,8 @@ public:
     }
 };
 
-
+// здесь не нужно, но не удаляю
+/*
 class UnitsCreator {
 public:
     UnitsCreator(AbstractFactory* _factory) : factory(_factory) {}
@@ -121,21 +122,32 @@ public:
 private:
     AbstractFactory* factory = nullptr;
 };
+*/
+
+enum class UnitType
+{
+    FIRST,
+    SECOND
+};
+
+AbstractFactory* GetFactory(const UnitType& type) {
+    if(type == UnitType::FIRST) return new AbstractFactory1();
+    else return new AbstractFactory2();
+}
 
 int main()
 {
-    AbstractFactory1* fuck1 = new AbstractFactory1(); // фабрика для юнитов 1
+    AbstractFactory* fuck = GetFactory(UnitType::FIRST); // фабрика для юнитов 1
 
-    UnitsCreator* creator = new UnitsCreator(fuck1);
-    Archer* archer1 = creator->getArcher();
+    Archer* archer1 = fuck->createArcher();
     cout << archer1->Name() << endl;
-    cout << creator->getSwordsman()->Name() << endl << endl;
+    cout << fuck->createSwordsman()->Name() << endl << endl;
 
 
-    UnitsCreator* creator2 = new UnitsCreator(new AbstractFactory2()); // фабрика для юнитов 2
-    Archer* archer2 = creator2->getArcher();
+    AbstractFactory* fuck2 = GetFactory(UnitType::SECOND); // фабрика для юнитов 2
+    Archer* archer2 = fuck2->createArcher();
     cout << archer2->Name() << endl;
-    cout << creator2->getSwordsman()->Name() << endl << endl;
+    cout << fuck2->createSwordsman()->Name() << endl << endl;
 
 
     return 0;
