@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Vizitor\Vizitor\bin\Debug\netcoreapp3.1\Vizitor.exe
+C:\Users\User\source\repos\Vizitor\Vizitor\bin\Debug\netcoreapp3.1\Vizitor.deps.json
+C:\Users\User\source\repos\Vizitor\Vizitor\bin\Debug\netcoreapp3.1\Vizitor.runtimeconfig.json
+C:\Users\User\source\repos\Vizitor\Vizitor\bin\Debug\netcoreapp3.1\Vizitor.runtimeconfig.dev.json
+C:\Users\User\source\repos\Vizitor\Vizitor\bin\Debug\netcoreapp3.1\Vizitor.dll
+C:\Users\User\source\repos\Vizitor\Vizitor\bin\Debug\netcoreapp3.1\Vizitor.pdb
+C:\Users\User\source\repos\Vizitor\Vizitor\obj\Debug\netcoreapp3.1\Vizitor.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Vizitor\Vizitor\obj\Debug\netcoreapp3.1\Vizitor.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Vizitor\Vizitor\obj\Debug\netcoreapp3.1\Vizitor.AssemblyInfo.cs
+C:\Users\User\source\repos\Vizitor\Vizitor\obj\Debug\netcoreapp3.1\Vizitor.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Vizitor\Vizitor\obj\Debug\netcoreapp3.1\Vizitor.dll
+C:\Users\User\source\repos\Vizitor\Vizitor\obj\Debug\netcoreapp3.1\Vizitor.pdb
+C:\Users\User\source\repos\Vizitor\Vizitor\obj\Debug\netcoreapp3.1\Vizitor.genruntimeconfig.cache
